@@ -3,7 +3,7 @@ on: push
 jobs:
  Explore-GitHub-Actions:
    runs-on: ubuntu-latest
-    steps:
+     steps:
       - name: Print the triggering event
          run: echo "The job was triggered by ${{ github.event_name }}."
       - name: Print the OS of the runner
